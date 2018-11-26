@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    let scores, roundScore, activePlayer, diceValue, diceValueB, diceImg, diceBImg, gamePlaying, globalScore, twoRolls, winningValue, form, input; 
+    let scores, roundScore, activePlayer, diceValue, diceValueB, diceImg, diceBImg, gamePlaying, globalScore, twoRolls, winningValue;
 
     initializeGame();
 
@@ -114,6 +114,9 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('score-1').textContent = '0';
         document.getElementById('current-0').textContent = '0';
         document.getElementById('current-1').textContent = '0';
+
+        // reset of the input filed (form)
+        document.querySelector('form').reset();
 
         //hiding the dice initially
         diceImg = document.querySelector('.dice');
