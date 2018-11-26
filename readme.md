@@ -1,11 +1,6 @@
 Simple Dice game built using plain JavaScript, just as a form of refresher.
 
 GAME RULES:
-- The game has 2 players, playing in rounds
-- In each turn, a player rolls a dice as many times as he wishes. Each result get added to his ROUND score
-- BUT, if the player rolls a 1 on any of the dices, all his ROUND score gets lost. After that, it's the next player's turn
-- The player can choose to 'Hold', which means that his ROUND score gets added to his GLOBAL score. After that, it's the next player's turn
-- The first player to reach 100 points on GLOBAL score wins the game
 
 - The game has two players, playing in rounds
 - Players needs to agree for the winning score - score to win the game and then hit 'submit'
